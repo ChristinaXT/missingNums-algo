@@ -17,8 +17,3 @@ function findMissingNum (arr) {
   return false;
 }
 console.log(findMissingNum(arr)); // Returns 9, the missing number
-
-//
-// For the sake of simplicity, 1 or 100 will be included in the array for sure.
-// If not, a simple check if arr[0] === 1 and arr[arr.length — 1] === 100 could
-// return the answer without looping through the array at all.
